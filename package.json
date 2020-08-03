@@ -1,0 +1,20 @@
+{
+  "name": "package-compare",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next-translate && next dev",
+    "build": "next-translate && next build",
+    "start": "next start",
+    "export": "next export",
+    "out": "yarn build && yarn export"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "9.5.1",
+    "next-translate": "^0.17.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
